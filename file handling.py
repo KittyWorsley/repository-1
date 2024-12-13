@@ -1,0 +1,12 @@
+file = open("students.txt", "w")
+file.write("Kyle Willams,Software Development,30,25")
+file.close()
+f=open("students.txt","r")
+print(f.read())
+
+file =open("students.txt","w")
+file.write( "Kyle Williams, Cyber security, 50,35")
+f=open("students.txt","r")
+print(f.read())
+file = open("results.txt","w")
+file.write()
